@@ -1,10 +1,14 @@
 package ie.tudublin;
 
+import javafx.animation.Animation;
+
 public class Main
 {
     public static void main(String[] arg)
     {
-        System.out.println("Hello world!");
+        int i;
+		
+		System.out.println("Hello world!");
 
         Animal misty = new Dog(); // Polymorphism
 
@@ -14,5 +18,9 @@ public class Main
 
         Cat topcat = new Cat();
         topcat.speak();
+		
+		for(i=0;i<9;i++){  
+		topcat.kill();
+		}
     }
 }
