@@ -1,0 +1,50 @@
+package ie.tudublin;
+
+import processing.core.PApplet;
+
+public class Loops extends PApplet
+{	
+	public void settings()
+	{
+		size(500, 500);
+	}
+
+	public void setup() 
+	{
+		colorMode(HSB);
+	}
+
+	
+	public void keyPressed()
+	{
+		if (key == ' ')
+		{
+			
+		}
+	}	
+
+
+	public void draw()
+	{	
+		noStroke();
+		background(255);
+		int mm=0;
+		int zz=0;
+		float x=0;
+		while(x<width){
+			float y=0;
+			while (y<height) {
+				fill(zz, 255, 255);
+				ellipse(x+25, y+25, 50, 50);
+		
+				y=y+50;
+				zz=zz+9;
+			}
+			x=x+50;
+			mm=mm+9;
+			zz=mm;
+		}
+	}
+}
+
+

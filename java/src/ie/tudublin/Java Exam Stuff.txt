@@ -1,0 +1,10 @@
+exam stuff
+
+benifit of package in java
+it prevents namespace conflicts 
+
+stuff that goes into git ignore file does not go into git repository
+
+git add. 
+
+copies all files from current directory to the staging area
